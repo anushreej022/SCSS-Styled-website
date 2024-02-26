@@ -1,0 +1,20 @@
+// _control-directives.scss
+$theme: 'dark';
+
+body {
+    @if $theme == 'dark' {
+        background-color: #333;
+        color: #fff;
+    } @else {
+        background-color: #fff;
+        color: #333;
+    }
+}
+
+.product-grid {
+    @for $i from 1 through 3 {
+        .product-#{$i} {
+            background-color: lighten(#3498db, $i * 5%);
+        }
+    }
+}

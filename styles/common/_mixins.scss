@@ -1,0 +1,10 @@
+// _mixins.scss
+@mixin box-shadow($value) {
+    box-shadow: $value;
+}
+
+@mixin center-flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
