@@ -1,8 +1,5 @@
-**Web Design Assignment**
-**Anushree Janardhan**
-**NUID--002780931**
 
-## SASS Features Overview
+## SASS Features Used:
 
 ### Variables
 
