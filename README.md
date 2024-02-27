@@ -1,4 +1,4 @@
-** Web Design Assignment **
+**Web Design Assignment**
 **Anushree Janardhan**
 **NUID--002780931**
 
