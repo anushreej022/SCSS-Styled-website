@@ -1,0 +1,4 @@
+@function calculate-padding($base-padding, $multiplier) {
+    @return $base-padding * $multiplier;
+  }
+  

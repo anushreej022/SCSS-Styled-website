@@ -1,5 +1,0 @@
-$theme: 'dark';
-
-.header {
-    background-color: #{if($theme == 'dark', '#333', '#fff')};
-}

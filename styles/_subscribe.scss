@@ -20,7 +20,7 @@
     color: #fff;
   }
   &_form {
-    align-self: flex-end;
+    align-self: flex-end;// Self-alignment
     padding: 0 5rem;
 
     @media screen and (max-width: 768px) {
@@ -44,7 +44,7 @@
       @media screen and (max-width: 768px) {
         width: 70%;
       }
-
+      //Pseudo-class
       &:hover {
         cursor: pointer;
       }
@@ -52,7 +52,7 @@
     &_button {
       background-color: $primary_2;
       color: #fff;
-      padding: 0.3rem 1rem;
+      padding: 0.3rem 1rem; //Adjusting Margin and padding
       border-radius: 10px;
       border: none;
       margin-left: -40px;

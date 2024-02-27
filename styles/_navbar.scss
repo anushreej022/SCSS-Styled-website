@@ -8,6 +8,7 @@
     &:hover {
       cursor: pointer;
     }
+    //Nested selector
     a {
       text-decoration: none;
       color: #fff;
@@ -20,6 +21,7 @@
     border-radius: 10px;
     border: none;
     text-decoration: none;
+    //Hover State
     &:hover {
       cursor: pointer;
     }
