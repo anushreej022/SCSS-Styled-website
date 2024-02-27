@@ -1,0 +1,11 @@
+
+
+body {
+  @if $is-dark-theme {
+    background-color: $background;
+    color: white;
+  } @else {
+    background-color: white;
+    color: $primary_3;
+  }
+}

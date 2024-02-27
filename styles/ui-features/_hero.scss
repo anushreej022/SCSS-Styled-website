@@ -1,0 +1,28 @@
+.container {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    margin: 4rem auto;
+    max-width: 80vw;
+    color: white;
+    border-radius: 20px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    @extend %align-center;
+    @media screen and (max-width: 768px) {
+      max-width: 90vw;
+    }
+  
+    &_bubble1 {
+      @include bubble;
+      @include position("top", -10px);
+      @include position("left", -50px);
+    }
+  
+    &_bubble2 {
+      @include bubble;
+      @include position("bottom", -10px);
+      @include position("right", -50px);
+    }
+  }
+  

@@ -1,9 +1,10 @@
 // _footer.scss
 .footer {
-    background-color: var(--secondary-color);
-    color: #fff;
-    padding: 10px;
+    padding: 2rem;
     text-align: center;
-    font-family: $font-family;
-    font-size: $font-size-base;
-}
+    color: #fff;
+    font-weight: 500;
+    border-top: 1px solid #2d2e36;
+    margin-top: 4rem;
+  }
+  
