@@ -1,21 +1,49 @@
-**INFO6150 Web Design Assignment 7**
-**Vidish Kale**
-**NUID--002194756**
+** Web Design Assignment **
+**Anushree Janardhan**
+**NUID--002780931**
 
-Multiple sass files were created for different kind of components and all were imported to a style.scss file
+## SASS Features Overview
 
-Sass variables were used for different colors across the page
+### Variables
 
-To give the bubble height and width in the \_hero.scss file, custom properties have been used
+SASS variables allow you to store and reuse values throughout your stylesheets. 
 
-Nesting was used in almost all the scss files for each different component
+### Custom Properties
 
-Placeholder selector was used for giving flex properties to different components like align-center
+Custom properties, also known as CSS variables, provide a way to store values for reuse. 
 
-Mixins were used for giving common properties
+### Nesting
 
-Function was used for setting the position of the bubble on the hero section where the position was passed as a prop
+Nesting in SASS allows you to structure your styles hierarchically, making your code more readable. 
 
-Media queries were used to make the website responsive
+### Interpolation
 
-Interpolation was used for color attribute
+Interpolation enables you to embed expressions within selectors or property names.
+
+### Placeholder Selectors
+
+Interpolation enables you to embed expressions within selectors or property names.
+
+### Mixins
+
+Mixins allow you to group styles and reuse them across your stylesheets. 
+
+### Functions
+
+SASS functions enable you to perform calculations or create dynamic styles.
+
+### Nested Selector
+
+Nested selectors in SASS help maintain a cleaner structure for related styles.
+
+### Extend/Inheritance
+
+Extend allows you to share styles between selectors, reducing redundancy. 
+
+### Media Query
+
+Media queries in SASS help create responsive designs.
+
+### Hover State
+
+SASS supports pseudo-classes like :hover to style elements on interaction.
